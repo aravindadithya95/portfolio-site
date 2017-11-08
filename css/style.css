@@ -23,10 +23,6 @@ header {
   padding-bottom: 15px;
 }
 
-#cover-pic {
-  width: 100%;
-}
-
 .sub-head {
   padding-left: 35px;
 }
@@ -50,11 +46,6 @@ h3 {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   overflow: hidden;
-}
-
-.card-project-img {
-  width: 100%;
-  height: auto;
 }
 
 h4 {
@@ -122,11 +113,6 @@ footer {
   overflow: hidden;
   border-top-left-radius: 3.25px;
   border-top-right-radius: 3.25px;
-}
-
-.modal-img {
-  width: 100%;
-  height: auto;
 }
 
 .modal-headr {
