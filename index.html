@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Portfolio | Aravind</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="">
+            <img src="img/udacity_logo.svg" id="logo" alt="Udacity Logo">
+          </a>
+          <button class="navbar-toggler cursor-pointer" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Projects <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about-me.html">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <header>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h1>Aravind Adithya Narayan</h1>
+              <h2>Full Stack Developer</h2>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <img src="img/office_desk_2x.jpg" srcset="img/office_desk_1x.jpg 1000w, img/office_desk_2x.jpg 1500w" sizes="100vw" id="cover-pic" alt="Desk Cover Picture">
+
+      <main class="content">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3>Featured Work</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <article class="card-project cursor-pointer" data-toggle="modal" data-target="#mtw-modal">
+                <div class="card-project-image">
+                  <img src="img/film.jpg" alt="Clapperboard" class="card-project-img">
+                </div>
+                <h4>Movie Trailer Website</h4>
+              </article>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <article class="card-project cursor-pointer" data-toggle="modal" data-target="#project2-modal">
+                <div class="card-project-image">
+                  <img src="img/placeholder.png" alt="Placeholder image" class="card-project-img">
+                </div>
+                <h4>Project 2</h4>
+              </article>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <article class="card-project cursor-pointer" data-toggle="modal" data-target="#project3-modal">
+                <div class="card-project-image">
+                  <img src="img/placeholder.png" alt="Placeholder image" class="card-project-img">
+                </div>
+                <h4>Project 3</h4>
+              </article>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 footer-cp">
+              Copyright © 2017 Aravind Adithya Narayan
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <a href="">
+                <img src="img/facebook_logo.png" alt="Facebook logo" class="footer-links">
+              </a>
+              <a href="">
+                <img src="img/linkedin_logo.png" alt="LinkedIn logo" class="footer-links">
+              </a>
+              <a href="">
+                <img src="img/github_logo.png" alt="GitHub logo" class="footer-links">
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Modal -->
+    <!-- Movie Trailer Website Modal -->
+    <div class="modal fade" id="mtw-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-image">
+            <img src="img/film.jpg" alt="Clapperboard" class="modal-img">
+          </div>
+          <div class="modal-headr text-center">
+            <h5>Movie Trailer Website</h5>
+          </div>
+          <div class="modal-body">
+            <p>
+              This project is part of the Full Stack Web Developer Nanodegree at Udacity.
+            </p>
+          </div>
+          <div class="modal-footr">
+            <a href="">
+              <div class="modal-button btn btn-outline-secondary">
+                <img src="img/github_logo.png" alt="GitHub logo" class="modal-link">
+                View GitHub Repository
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Project 2 Modal -->
+    <div class="modal fade" id="project2-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-image">
+            <img src="img/placeholder.png" alt="Placeholder image" class="modal-img">
+          </div>
+          <div class="modal-headr text-center">
+            <h5>Project2</h5>
+          </div>
+          <div class="modal-body">
+            <p>
+              This project is part of the Full Stack Web Developer Nanodegree at Udacity.
+            </p>
+          </div>
+          <div class="modal-footr">
+            <a href="">
+              <div class="modal-button btn btn-outline-secondary">
+                <img src="img/github_logo.png" alt="GitHub logo" class="modal-link">
+                View GitHub Repository
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Project 3 Modal -->
+    <div class="modal fade" id="project3-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-image">
+            <img src="img/placeholder.png" alt="Placeholder image" class="modal-img">
+          </div>
+          <div class="modal-headr text-center">
+            <h5>Project3</h5>
+          </div>
+          <div class="modal-body">
+            <p>
+              This project is part of the Full Stack Web Developer Nanodegree at Udacity.
+            </p>
+          </div>
+          <div class="modal-footr">
+            <a href="">
+              <div class="modal-button btn btn-outline-secondary">
+                <img src="img/github_logo.png" alt="GitHub logo" class="modal-link">
+                View GitHub Repository
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
