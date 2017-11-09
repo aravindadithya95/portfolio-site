@@ -1,12 +1,23 @@
 * {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* Navbar */
+nav {
+  background-color: #fff;
 }
 
 #logo {
   height: 30px;
 }
 
+
+/* Header */
 h1 {
   font-size: 30px;
   font-weight: 300;
@@ -23,6 +34,8 @@ header {
   padding-bottom: 15px;
 }
 
+
+/* Main */
 .sub-head {
   padding-left: 35px;
 }
@@ -32,7 +45,7 @@ h3 {
 }
 
 .card-project {
-  box-shadow: 2px 2px 15px 0px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 15px 0 rgba(0, 0, 0, 0.2);
   margin: 20px;
   border-radius: 5px;
   height: 300px;
@@ -43,8 +56,6 @@ h3 {
 .card-project-image {
   width: 100%;
   height: 40%;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
   overflow: hidden;
 }
 
@@ -57,20 +68,14 @@ main {
   padding: 30px;
 }
 
+
+/* Footer */
 footer {
   background-color: #f7f6f5;
   font-size: 12px;
   color: #676858;
   padding: 20px;
   padding-bottom: 45px;
-}
-
-nav {
-  background-color: #ffffff;
-}
-
-.cursor-pointer {
-  cursor: pointer;
 }
 
 .footer-links {
@@ -85,7 +90,10 @@ nav {
   padding-bottom: 10px;
 }
 
-html, body {
+
+/* Keep footer at the bottom */
+html,
+body {
   margin: 0;
   padding: 0;
   height: 100%
@@ -108,11 +116,12 @@ footer {
   padding-bottom: 150px;
 }
 
+
+/* Modal */
 .modal-image {
   height: 180px;
   overflow: hidden;
-  border-top-left-radius: 3.25px;
-  border-top-right-radius: 3.25px;
+  border-radius: 3.3px 3.3px 0 0;
 }
 
 .modal-headr {
