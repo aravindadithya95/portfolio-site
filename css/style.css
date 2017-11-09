@@ -92,7 +92,10 @@ footer {
 }
 
 
-/* Keep footer at the bottom */
+/* Keep footer at the bottom
+ * Reference: Matthew James Taylor (http://matthewjamestaylor.com/)
+ * Link: https://cssreset.com/how-to-keep-footer-at-bottom-of-page-with-css/
+ */
 html,
 body {
   margin: 0;
