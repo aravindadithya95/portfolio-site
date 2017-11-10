@@ -80,10 +80,9 @@ footer {
 }
 
 .footer-links {
-  width: 30px;
-  height: 30px;
+  color: #676858;
   float: right;
-  padding: 5px;
+  padding: 5px 10px 10px 10px;
 }
 
 .footer-cp {
