@@ -72,9 +72,17 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-4">
+              <article class="card-project cursor-pointer" data-toggle="modal" data-target="#catalog-modal">
+                <div class="card-project-image">
+                  <img src="img/catalog.jpg" alt="Catalog image" class="img-fluid">
+                </div>
+                <h4>Item Catalog</h4>
+              </article>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
               <article class="card-project cursor-pointer" data-toggle="modal" data-target="#map-modal">
                 <div class="card-project-image">
-                  <img src="img/map.jpg" alt="Placeholder image" class="img-fluid">
+                  <img src="img/map.jpg" alt="Map image" class="img-fluid">
                 </div>
                 <h4>Neighborhood Map</h4>
               </article>
@@ -82,9 +90,17 @@
             <div class="col-sm-12 col-md-6 col-lg-4">
               <article class="card-project cursor-pointer" data-toggle="modal" data-target="#server-modal">
                 <div class="card-project-image">
-                  <img src="img/server.jpg" alt="Placeholder image" class="img-fluid">
+                  <img src="img/server.jpg" alt="Server image" class="img-fluid">
                 </div>
                 <h4>Linux Server Configuration</h4>
+              </article>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <article class="card-project cursor-pointer" data-toggle="modal" data-target="#logs-modal">
+                <div class="card-project-image">
+                  <img src="img/analysis.jpg" alt="Analysis image" class="img-fluid card-project-img">
+                </div>
+                <h4>Logs Analysis</h4>
               </article>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4">
@@ -95,63 +111,6 @@
                 <h4>Movie Trailer Website</h4>
               </article>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-4">
-              <article class="card-project cursor-pointer" data-toggle="modal" data-target="#project2-modal">
-                <div class="card-project-image">
-                  <img src="img/analysis.jpg" alt="Placeholder image" class="img-fluid card-project-img">
-                </div>
-                <h4>Logs Analysis</h4>
-              </article>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4">
-              <article class="card-project cursor-pointer" data-toggle="modal" data-target="#project3-modal">
-                <div class="card-project-image">
-                  <img src="img/catalog.jpg" alt="Placeholder image" class="img-fluid">
-                </div>
-                <h4>Item Catalog</h4>
-              </article>
-            </div>
-
-            <!--div class="col-sm-12 col-md-6 col-lg-4">
-              <article class="card-project cursor-pointer" data-toggle="modal" data-target="#mtw-modal">
-                <div class="card-project-image">
-                  <img src="img/placeholder.png" alt="Clapperboard" class="img-fluid">
-                </div>
-                <h4>Project 4</h4>
-              </article>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4">
-              <article class="card-project cursor-pointer" data-toggle="modal" data-target="#project2-modal">
-                <div class="card-project-image">
-                  <img src="img/placeholder.png" alt="Placeholder image" class="img-fluid card-project-img">
-                </div>
-                <h4>Project 6</h4>
-              </article>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4">
-              <article class="card-project cursor-pointer" data-toggle="modal" data-target="#project3-modal">
-                <div class="card-project-image">
-                  <img src="img/placeholder.png" alt="Placeholder image" class="img-fluid">
-                </div>
-                <h4>Project 6</h4>
-              </article>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4">
-              <article class="card-project cursor-pointer" data-toggle="modal" data-target="#mtw-modal">
-                <div class="card-project-image">
-                  <img src="img/placeholder.png" alt="Clapperboard" class="img-fluid">
-                </div>
-                <h4>Project 4</h4>
-              </article>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-4">
-              <article class="card-project cursor-pointer" data-toggle="modal" data-target="#project2-modal">
-                <div class="card-project-image">
-                  <img src="img/placeholder.png" alt="Placeholder image" class="img-fluid card-project-img">
-                </div>
-                <h4>Project 6</h4>
-              </article>
-            </div-->
           </div>
         </div>
       </main>
@@ -176,6 +135,30 @@
     </div>
 
     <!-- Modal -->
+    <!-- Item Catalog Modal -->
+    <div class="modal fade" id="catalog-modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-image">
+            <img src="img/catalog.jpg" alt="Placeholder image" class="img-fluid">
+          </div>
+          <div class="modal-headr text-center">
+            <h5>Item Catalog</h5>
+          </div>
+          <div class="modal-body">
+            <p>
+              This project is part of the Full Stack Web Developer Nanodegree at Udacity.
+            </p>
+          </div>
+          <div class="modal-footr">
+            <a href="" class="btn btn-outline-secondary btn-modal">
+              <img src="img/github_logo.png" alt="GitHub logo" class="modal-link">
+              View GitHub Repository
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Neighborhood Map Modal -->
     <div class="modal fade" id="map-modal" tabindex="-1" role="dialog">
       <div class="modal-dialog" role="document">
@@ -224,32 +207,8 @@
         </div>
       </div>
     </div>
-    <!-- Movie Trailer Website Modal -->
-    <div class="modal fade" id="mtw-modal" tabindex="-1" role="dialog">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-image">
-            <img src="img/film.jpg" alt="Clapperboard" class="img-fluid">
-          </div>
-          <div class="modal-headr text-center">
-            <h5>Movie Trailer Website</h5>
-          </div>
-          <div class="modal-body">
-            <p>
-              This project is part of the Full Stack Web Developer Nanodegree at Udacity.
-            </p>
-          </div>
-          <div class="modal-footr">
-            <a href="https://github.com/aravindadithya95/movie-trailer-website" target="_blank" class="btn btn-outline-secondary btn-modal">
-              <img src="img/github_logo.png" alt="GitHub logo" class="modal-link">
-              View GitHub Repository
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Project 2 Modal -->
-    <div class="modal fade" id="project2-modal" tabindex="-1" role="dialog">
+    <!-- Logs Analysis Modal -->
+    <div class="modal fade" id="logs-modal" tabindex="-1" role="dialog">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-image">
@@ -272,15 +231,15 @@
         </div>
       </div>
     </div>
-    <!-- Project 3 Modal -->
-    <div class="modal fade" id="project3-modal" tabindex="-1" role="dialog">
+    <!-- Movie Trailer Website Modal -->
+    <div class="modal fade" id="mtw-modal" tabindex="-1" role="dialog">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-image">
-            <img src="img/catalog.jpg" alt="Placeholder image" class="img-fluid">
+            <img src="img/film.jpg" alt="Clapperboard" class="img-fluid">
           </div>
           <div class="modal-headr text-center">
-            <h5>Item Catalog</h5>
+            <h5>Movie Trailer Website</h5>
           </div>
           <div class="modal-body">
             <p>
@@ -288,7 +247,7 @@
             </p>
           </div>
           <div class="modal-footr">
-            <a href="" class="btn btn-outline-secondary btn-modal">
+            <a href="https://github.com/aravindadithya95/movie-trailer-website" target="_blank" class="btn btn-outline-secondary btn-modal">
               <img src="img/github_logo.png" alt="GitHub logo" class="modal-link">
               View GitHub Repository
             </a>
