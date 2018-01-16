@@ -22,58 +22,55 @@
   </head>
   <body>
     <div id="wrapper">
-      <nav class="navbar navbar-expand-md navbar-light">
-        <div class="container">
-          <a class="navbar-brand" href="">
-            <img src="img/udacity_logo.svg" id="logo" alt="Udacity Logo">
-          </a>
-          <button class="navbar-toggler cursor-pointer" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">
-                  Projects <span class="sr-only">(current)</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about-me.html">
-                  About me
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
       <header>
-        <div class="container">
+        <nav class="navbar navbar-expand-md navbar-light fixed-top">
+          <div class="container">
+            <a class="navbar-brand" href="">
+              <img src="img/udacity_logo.svg" id="logo" alt="Udacity Logo">
+            </a>
+            <button class="navbar-toggler cursor-pointer" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">
+                    Projects <span class="sr-only">(current)</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about-me.html">
+                    About me
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div class="head container">
           <div class="row">
-            <div class="col-12 text-center">
+            <div class="col-sm-12 col-md-6 cover">
+              <img src="img/fs.gif" alt="" class="cover-img">
+            </div>
+            <div class="col-sm-12 col-md-6 text-center">
               <h1>Aravind Adithya Narayan</h1>
+              <hr>
               <h2>Full Stack Developer</h2>
             </div>
           </div>
         </div>
-      </header>
 
-      <!-- Cover Picture -->
-      <img src="img/office_desk_2x.jpg" srcset="img/office_desk_1x.jpg 1000w, img/office_desk_2x.jpg 1500w" sizes="100vw" class="img-fluid" alt="Desk Cover Picture">
+      </header>
 
       <main class="content">
         <div class="container">
-          <div class="row">
-            <div class="col-12 sub-head">
-              <h3>Featured Work</h3>
-            </div>
-          </div>
           <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-4">
               <article class="card-project cursor-pointer" data-toggle="modal" data-target="#mtw-modal">
@@ -99,25 +96,63 @@
                 <h4>Item Catalog</h4>
               </article>
             </div>
+
+            <!--div class="col-sm-12 col-md-6 col-lg-4">
+              <article class="card-project cursor-pointer" data-toggle="modal" data-target="#mtw-modal">
+                <div class="card-project-image">
+                  <img src="img/placeholder.png" alt="Clapperboard" class="img-fluid">
+                </div>
+                <h4>Project 4</h4>
+              </article>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <article class="card-project cursor-pointer" data-toggle="modal" data-target="#project2-modal">
+                <div class="card-project-image">
+                  <img src="img/placeholder.png" alt="Placeholder image" class="img-fluid card-project-img">
+                </div>
+                <h4>Project 6</h4>
+              </article>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <article class="card-project cursor-pointer" data-toggle="modal" data-target="#project3-modal">
+                <div class="card-project-image">
+                  <img src="img/placeholder.png" alt="Placeholder image" class="img-fluid">
+                </div>
+                <h4>Project 6</h4>
+              </article>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <article class="card-project cursor-pointer" data-toggle="modal" data-target="#mtw-modal">
+                <div class="card-project-image">
+                  <img src="img/placeholder.png" alt="Clapperboard" class="img-fluid">
+                </div>
+                <h4>Project 4</h4>
+              </article>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+              <article class="card-project cursor-pointer" data-toggle="modal" data-target="#project2-modal">
+                <div class="card-project-image">
+                  <img src="img/placeholder.png" alt="Placeholder image" class="img-fluid card-project-img">
+                </div>
+                <h4>Project 6</h4>
+              </article>
+            </div-->
           </div>
         </div>
       </main>
 
-      <footer>
+      <footer class="text-center">
         <div class="container">
           <div class="row">
-            <div class="col-xs-12 col-sm-6 footer-cp">
-              Copyright © 2017 Aravind Adithya Narayan
-            </div>
-            <div class="col-xs-12 col-sm-6">
-              <a href="https://www.facebook.com/aravindadithya95" target="_blank" class="footer-links">
-                <i class="fa fa-facebook fa-2x"></i>
+            <div class="col-12">
+              <a href="https://github.com/aravindadithya95" target="_blank" class="footer-links github-link">
+                <i class="fa fa-github fa-2x"></i>
               </a>
-              <a href="https://www.linkedin.com/in/aravindadithya/" target="_blank" class="footer-links">
+              <a href="https://www.linkedin.com/in/aravindadithya/" target="_blank" class="footer-links linkedin-link">
                 <i class="fa fa-linkedin fa-2x"></i>
               </a>
-              <a href="https://github.com/aravindadithya95" target="_blank" class="footer-links">
-                <i class="fa fa-github fa-2x"></i>
+              <a href="https://www.facebook.com/aravindadithya95" target="_blank" class="footer-links fb-link">
+                <i class="fa fa-facebook fa-2x"></i>
               </a>
             </div>
           </div>
@@ -142,7 +177,7 @@
             </p>
           </div>
           <div class="modal-footr">
-            <a href="https://github.com/aravindadithya95/movie-trailer-website" target="_blank" class="btn btn-outline-secondary">
+            <a href="https://github.com/aravindadithya95/movie-trailer-website" target="_blank" class="btn btn-outline-secondary btn-modal">
               <img src="img/github_logo.png" alt="GitHub logo" class="modal-link">
               View GitHub Repository
             </a>
@@ -166,7 +201,7 @@
             </p>
           </div>
           <div class="modal-footr">
-            <a href="" class="btn btn-outline-secondary">
+            <a href="" class="btn btn-outline-secondary btn-modal">
               <img src="img/github_logo.png" alt="GitHub logo" class="modal-link">
               View GitHub Repository
             </a>
@@ -190,7 +225,7 @@
             </p>
           </div>
           <div class="modal-footr">
-            <a href="" class="btn btn-outline-secondary">
+            <a href="" class="btn btn-outline-secondary btn-modal">
               <img src="img/github_logo.png" alt="GitHub logo" class="modal-link">
               View GitHub Repository
             </a>

@@ -11,6 +11,11 @@
 /* Navbar */
 nav {
   background-color: #fff;
+  box-shadow: 2px 2px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navbar-toggler {
+  border: none;
 }
 
 #logo {
@@ -22,17 +27,48 @@ nav {
 h1 {
   font-size: 30px;
   font-weight: 300;
+  color: #fff;
 }
 
 h2 {
   font-size: 20px;
-  color: #676858;
   font-weight: 300;
+  color: #fff;
 }
 
 header {
-  padding-top: 45px;
-  padding-bottom: 15px;
+  background: #7b8081;
+  background-image: url("../img/tag-2.png");
+  background: #314954;
+  background: #44657b;
+  background: #7b8081;
+  background: #314954;
+  background: #525e68;
+  background: #384047;
+  background: #696969;
+  background: #5d5d5d;
+
+  background-size: cover;
+}
+
+.cover {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.cover-img {
+  width: 200px;
+}
+
+.head {
+  padding-top: 160px;
+  padding-bottom: 100px;
+}
+
+hr {
+  background-color: #fff;
+  width: 75px;
 }
 
 
@@ -47,11 +83,18 @@ h3 {
 
 .card-project {
   box-shadow: 2px 2px 15px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 7px 0 rgba(0, 0, 0, 0.2);
   margin: 20px;
-  border-radius: 5px;
+  border-radius: 8px;
   height: 300px;
   max-width: 400px;
   overflow: auto;
+  background: #fff;
+}
+
+.card-project:hover {
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 15px 0 rgba(0, 0, 0, 0.2);
 }
 
 .card-project-image {
@@ -80,9 +123,12 @@ footer {
 }
 
 .footer-links {
-  color: #676858;
-  float: right;
+  color: #7b8081;
   padding: 5px 10px 10px 10px;
+}
+
+.footer-links:hover {
+  text-decoration: none;
 }
 
 .footer-cp {
@@ -99,24 +145,41 @@ html,
 body {
   margin: 0;
   padding: 0;
-  height: 100%
+  height: 100%;
+
+  background: #fff;
 }
 
 #wrapper {
   min-height: 100%;
   position: relative;
+  background: #f7f6f5;
 }
 
 footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 120px;
+  height: 100px;
 }
 
 .content {
   padding: 30px;
-  padding-bottom: 150px;
+  padding-bottom: 0;
+
+  padding-bottom: 130px;
+}
+
+.fb-link:hover {
+  color: #4266b2;
+}
+
+.linkedin-link:hover {
+  color: #0076b5;
+}
+
+.github-link:hover {
+  color: #25292f;
 }
 
 
@@ -144,4 +207,17 @@ footer {
 .modal-link {
   width: 25px;
   height: 25px;
+}
+
+.btn-modal {
+  box-shadow: 2px 2px 15px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.2);
+  color: #676858;
+}
+
+.btn-modal:hover {
+  background: inherit;
+  color: #676858;
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 15px 0 rgba(0, 0, 0, 0.2);
 }
